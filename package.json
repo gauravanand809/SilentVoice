@@ -2,6 +2,7 @@
   "name": "digivault_2",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,18 +10,37 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "@huggingface/inference": "^2.7.0",
+    "@radix-ui/react-icons": "^1.3.0",
+    "ai": "^3.1.35",
+    "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "lib": "^5.1.0",
+    "mongoose": "^8.4.1",
+    "next": "14.2.3",
+    "next-auth": "^4.24.7",
+    "openai": "^4.51.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "resend": "^3.2.0",
+    "swr": "^2.2.5",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "20.14.2",
+    "@types/react": "18.3.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.5"
   }
 }
