@@ -1,0 +1,84 @@
+.
+├── app
+│   ├── api
+│   │   ├── accept-messages
+│   │   │   └── route.ts
+│   │   ├── auth
+│   │   │   └── [...nextauth]
+│   │   │       ├── options.ts
+│   │   │       └── route.ts
+│   │   ├── check-username-unique
+│   │   │   └── route.ts
+│   │   ├── delete-message
+│   │   │   └── [messageid]
+│   │   │       └── route.ts
+│   │   ├── get-messages
+│   │   │   └── route.ts
+│   │   ├── send-message
+│   │   │   └── route.ts
+│   │   ├── sign-up
+│   │   │   └── route.ts
+│   │   ├── suggest-messages
+│   │   │   └── route.ts
+│   │   └── verify-code
+│   │       └── route.ts
+│   ├── (app)
+│   │   ├── dashboard
+│   │   │   └── page.tsx
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── (auth)
+│   │   ├── sign-in
+│   │   │   └── page.tsx
+│   │   ├── sign-up
+│   │   │   └── page.tsx
+│   │   └── verify
+│   │       └── [username]
+│   │           └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── u
+│       └── [username]
+│           └── page.tsx
+├── components
+│   ├── MessageCard.tsx
+│   ├── Navbar.tsx
+│   └── ui
+│       ├── alert-dialog.tsx
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── carousel.tsx
+│       ├── form.tsx
+│       ├── input.tsx
+│       ├── label.tsx
+│       ├── separator.tsx
+│       ├── switch.tsx
+│       ├── textarea.tsx
+│       ├── toaster.tsx
+│       ├── toast.tsx
+│       └── use-toast.ts
+├── context
+│   └── AuthProvider.tsx
+├── helpers
+│   └── sendVerificationEmail.ts
+├── lib
+│   ├── dbConnect.ts
+│   ├── resend.ts
+│   └── utils.ts
+├── messages.json
+├── middleware.ts
+├── model
+│   └── User.ts
+├── schemas
+│   ├── acceptMessageSchema.ts
+│   ├── messageSchema.ts
+│   ├── signInSchema.ts
+│   ├── signUpSchema.ts
+│   └── verifySchema.ts
+├── structure.txt
+└── types
+    ├── ApiResponse.ts
+    └── next-auth.d.ts
+
+31 directories, 51 files
