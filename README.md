@@ -11,6 +11,8 @@ SilentVoice is a Next.js-based web application that allows users to send and rec
 - **Message Suggestions**: The system can suggest potential messages based on certain criteria.
 - **Email Verification**: Users receive a verification code via email to confirm their accounts.
 
+![alt text](image.png)
+![alt text](image-1.png)
 ## Project Structure
 
 ```bash
