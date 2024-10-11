@@ -20,7 +20,7 @@ SilentVoice is a Next.js-based web application that allows users to send and rec
 │   ├── api                     # API routes for handling backend requests
 │   │   ├── accept-messages      # Accept messages endpoint
 │   │   ├── auth                 # Authentication routes (NextAuth integration)
-│   │   ├── check-username-unique# Check if a username is unique
+│   │   ├── check-username-unique # Check if a username is unique
 │   │   ├── delete-message       # Delete a specific message by ID
 │   │   ├── get-messages         # Retrieve messages for a user
 │   │   ├── send-message         # Send anonymous messages
